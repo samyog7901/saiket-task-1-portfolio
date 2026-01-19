@@ -1,9 +1,13 @@
 # Task 1: Portfolio Website
 
-This is my Day 1 submission for the **Saiket Systems Full Stack Internship**.
+This repository documents my progress for **Task 1** of the  
+**Saiket Systems Full Stack Internship**.
 
-## What’s Done
+---
 
+## Day 1 – HTML Structure
+
+### What’s Done
 - HTML structure created with semantic sections:
   - Header & Navigation
   - Intro
@@ -13,9 +17,18 @@ This is my Day 1 submission for the **Saiket Systems Full Stack Internship**.
 - Tailwind CDN linked
 - Intro & About content written
 
-## Next Steps
+---
 
-- Style the sections with Tailwind (Day 2)
-- Add project cards
-- Implement JS contact form validation (Day 3)
-- Make fully responsive
+## Day 2 – Styling & Responsiveness
+
+### What’s Done
+- Styled all sections using Tailwind CSS
+- Improved layout for mobile and desktop devices
+- Added project cards section
+- Added contact form UI
+
+---
+
+## Next Steps
+- Implement JavaScript validation for contact form (Day 3)
+- Code cleanup and final polish
