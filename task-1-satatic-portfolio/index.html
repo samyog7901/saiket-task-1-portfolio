@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+    <!-- integrated tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
 
 </head>
 <body>
+    <!-- Header part: consist of Navbar -->
     <header>
         <nav class="bg-purple-700 text-white z-10 w-full fixed">
             <div class="max-w-7xl mx-auto flex items-center justify-between h-16 px-6">
@@ -23,6 +26,7 @@
          </nav>
     </header>
     
+    <!-- Intro part: Hero section -->
     <section class="bg-gray-100 min-h-screen pt-32" id="intro">
         <div class="max-w-7xl mx-auto px-6" >
             
@@ -42,7 +46,8 @@
             </div>   
         </div>
     </section>
-    
+
+    <!-- About page -->
     <section class="min-h-screen flex items-center bg-white px-6" id="about">
        <div class="max-w-4xl mx-auto text-center">
          <h2 class="text-3xl mb-6 underline">About Myself</h2>
@@ -52,8 +57,9 @@
                 I have done numbers of projects which you can explore below..
          </p>
        </div>
-        
     </section>
+
+    <!--Projec cards section  -->
     <section class="min-h-screen bg-gray-50 px-6 py-32" id="projects">
         <h2 class="text-3xl text-center mb-10 underline">My Projects</h2>
         <div class="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
@@ -69,34 +75,31 @@
             <h3 class="text-xl font-semibold mb-2">Project 3</h3>
             <p class="text-gray-600">On going MERN stack project.</p>
         </div>
-        </div>
-     
-      
-      
-        
+        </div>   
     </section>
+
+    <!-- simple contact section -->
     <section class="min-h-screen flex items-center px-6" id="contact">
         <div class="max-w-xl mx-auto w-full">
             <h2 class="text-3xl  mb-6 text-center underline">Contact Me</h2>
 
-            <form class="flex flex-col gap-4">
-                <input class="border p-3 rounded" type="text" name="name" placeholder="Your Name" required>
-                <input class="border p-3 rounded" type="email" name="email" placeholder="Your Email" required>
-                <textarea class="border p-3 rounded" name="message" rows="4" placeholder="Say something..."></textarea>
+            <form class="flex flex-col gap-4" id="contactForm">
+                <input class="border p-3 rounded" type="text" name="name" id="name" placeholder="Your Name" required>
+                <input class="border p-3 rounded" type="email" name="email" id="email" placeholder="Your Email" required>
+                <textarea class="border p-3 rounded" name="message" rows="4" placeholder="Say something..." required></textarea>
 
                 <button class="bg-purple-700 text-white p-3 rounded hover:bg-purple-800">Send Message</button>
             </form>
         </div>
-       
-        
     </section>
 
+
+    <!-- Footer section -->
     <footer class="bg-gray-500 flex py-8 justify-center hover:bg-purple-700">
         <p class="text-white">&copy; 2026 Samyog Khadka. All Rights Reserved.</p>
-        
     </footer>
     
-    
-    
+    <!-- Linked Js file -->
+    <script src="script.js"></script>
 </body>
 </html>
